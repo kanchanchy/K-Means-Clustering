@@ -87,7 +87,7 @@ def find_clusters(data, center_list):
 
 
 #loading dataset
-Numpyfile= scipy.io.loadmat('AllSamples.mat')
+Numpyfile= scipy.io.loadmat('data/AllSamples.mat')
 
 data = Numpyfile['AllSamples']
 
